@@ -55,28 +55,20 @@ android {
         buildConfigField "long", "TIMESTAMP", System.currentTimeMillis() + "L"
     }
     buildTypes {
-        debug {
+        release {
             minifyEnabled false
-            pseudoLocalesEnabled true
+            proguardFiles getDefaultProguardFile("proguard-android.txt"), "proguard-rules.pro"
         }
     }
 
     flavorDimensions "license", "release"
     productFlavors {
-        full {
-            dimension "license"
-            manifestPlaceholders = [maps_api_key: project.findProperty("mapsApiKey") ?: ""]
-        }
         foss {
             dimension "license"
         }
 
         stable {
             dimension "release"
-        }
-        beta {
-            dimension "release"
-            applicationIdSuffix ".beta"
         }
     }
     testOptions {
