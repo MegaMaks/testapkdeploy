@@ -1,0 +1,29 @@
+openHAB - "empowering the smart home" - eng Hiersteller an Technologie onofhängeg Open Source Automatisatioun s Léisung fir Doheem
+
+The builds on F-Droid have FCM removed and therefore won't be able to receive push notifications from openHAB Cloud. Instead, notifications are polled on a regular basis in these builds.
+Probéier nei Features aus a gëff eis Feedback!
+Du kann s d´ Beta Versioun parallel zu der <a href="https://f-droid.org/packages/org.openhab.habdroid/">stabeler Versioun</a> installéieren.
+
+openHAB ass eng Java baséiert Open-Source Platform fir Heem-Automatisatioun, déi eng grouss Bandbreet un verschiddene Smart-Home Systemer an Technologien an enger Solutioun integréiert an kombinéiert.
+Opbauend op enger eenheetlecher Abstraktioun s Couche sinn all verbonnen Geräter fir déi iwwergräifend Automatiséierung s bzw. Regelméiglechkeeten an déi verschidden Benotzer Interfacen disponibel.
+
+<b>Ënnerstëtzt Produiten</b>
+
+Over 200 specific add-ons provide support for brands, devices, technologies and communication protocols. Examples are Z-Wave, Philips Hue, Amazon Echo, Chromecast and Sonos. Discover all available add-ons and supported devices and/or functions at: https://www.openhab.org/addons/
+Dës App huet en Action-Plugin fir Tasker an Locale.
+
+<b>Open Source Communautéit</b>
+
+The openHAB open source initiative strongly supports its vibrant community. The forum with over 13,000 registered users is a place to find guidance, help and inspiration. Join the openHAB community forum over at https://community.openhab.org
+Wann dir e Problem opfält, mell deen w.e.g. am Forum oder ënner https://github.com/openhab/openhab-android/issues
+Wann s de des App op deng Sprooch iwwersetze wëlls dann hëllef eis ënner https://crowdin.com/project/openhab-android
+
+<b>openHAB Fondatioun</b>
+
+The openHAB Foundation e.V. is a nonprofit organization with the mission to educate the public about the possibilities and benefits of free and open smart home solutions. Learn about the mission and the services of the foundation under https://www.openhabfoundation.org
+
+<b>Wichtegen Hiweis</b>
+
+Du brauchs en openHAB Server fir des App kennen ze notzen.
+
+Dateschutzerklärung: https://www.openhabfoundation.org/privacy.html

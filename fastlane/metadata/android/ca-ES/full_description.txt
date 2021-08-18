@@ -1,0 +1,29 @@
+openHAB - «potenciant la llar intel·ligent» - automatització de la llar amb codi obert i independent del proveïdor i de la tecnologia
+
+The builds on F-Droid have FCM removed and therefore won't be able to receive push notifications from openHAB Cloud. Instead, notifications are polled on a regular basis in these builds.
+Try out new features and give early feedback!
+You can install the beta version alongside the <a href="https://f-droid.org/packages/org.openhab.habdroid/">stable version</a>.
+
+openHAB és una plataforma feta en Java per a l'automatització de la llar basada en codi obert, que integra i combina una gran varietat de sistemes i tecnologies per a la llar intel·ligent en una solució única.
+Per sobre de la capa unificada d'abstracció, tots els dispositius connectats són disponibles per al motor de regles generals d'automatització i diferents interfícies d'usuari.
+
+<b>Productes suportats</b>
+
+Over 200 specific add-ons provide support for brands, devices, technologies and communication protocols. Examples are Z-Wave, Philips Hue, Amazon Echo, Chromecast and Sonos. Discover all available add-ons and supported devices and/or functions at: https://www.openhab.org/addons/
+The app has an action plugin for Tasker and Locale included.
+
+<b>Comunitat de codi obert</b>
+
+The openHAB open source initiative strongly supports its vibrant community. The forum with over 13,000 registered users is a place to find guidance, help and inspiration. Join the openHAB community forum over at https://community.openhab.org
+Si trobeu un problema, informeu-nos en en el fòrem o a https://github.com/openhab/openhab-android/issues
+Si voleu traduir la aplicació a la vostra llengua, uniu-vos a https://crowdin.com/project/openhab-android
+
+<b>Fundació openHAB</b>
+
+The openHAB Foundation e.V. is a nonprofit organization with the mission to educate the public about the possibilities and benefits of free and open smart home solutions. Learn about the mission and the services of the foundation under https://www.openhabfoundation.org
+
+<b>Nota important</b>
+
+You need an openHAB server for this app.
+
+Política de privadesa: https://www.openhabfoundation.org/privacy.html
