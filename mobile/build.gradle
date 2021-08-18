@@ -59,16 +59,28 @@ android {
             minifyEnabled false
             proguardFiles getDefaultProguardFile("proguard-android.txt"), "proguard-rules.pro"
         }
+        debug {
+            minifyEnabled false
+            pseudoLocalesEnabled true
+        }
     }
 
     flavorDimensions "license", "release"
     productFlavors {
+        full {
+            dimension "license"
+            manifestPlaceholders = [maps_api_key: project.findProperty("mapsApiKey") ?: ""]
+        }
         foss {
             dimension "license"
         }
 
         stable {
             dimension "release"
+        }
+        beta {
+            dimension "release"
+            applicationIdSuffix ".beta"
         }
     }
     testOptions {
